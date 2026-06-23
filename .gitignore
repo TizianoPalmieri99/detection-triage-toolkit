@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Real logs and data (never commit production data)
+*.local.log
+/private/
+
+# Personal study material — kept local, in Italian (not part of the public portfolio)
+/scripts/
+SPIEGAZIONE.md
+
+# System
+.DS_Store
+Thumbs.db

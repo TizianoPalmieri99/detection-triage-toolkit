@@ -1,0 +1,12 @@
+TimeCreated,EventID,Account,SourceIP,Message
+2026-06-14 09:01:22,4624,DESKTOP-A\mario,10.0.0.5,Successful logon type 2 (interactive)
+2026-06-14 09:05:10,4625,DESKTOP-A\administrator,203.0.113.45,Failed logon - wrong password
+2026-06-14 09:05:12,4625,DESKTOP-A\administrator,203.0.113.45,Failed logon - wrong password
+2026-06-14 09:05:14,4625,DESKTOP-A\administrator,203.0.113.45,Failed logon - wrong password
+2026-06-14 09:06:40,4624,DESKTOP-A\administrator,203.0.113.45,Successful logon type 3 (network)
+2026-06-14 09:07:33,4720,DESKTOP-A\svc_backup,-,A new user account was created
+2026-06-14 09:07:34,4732,DESKTOP-A\svc_backup,-,Added to the Administrators group
+2026-06-14 09:08:00,4672,DESKTOP-A\svc_backup,-,Special privileges assigned to logon
+2026-06-14 09:12:05,4688,DESKTOP-A\svc_backup,-,New process: powershell.exe -enc ...
+2026-06-14 09:15:00,1102,DESKTOP-A\administrator,-,The security log was cleared
+2026-06-14 09:20:11,4624,DESKTOP-A\mario,10.0.0.5,Successful logon type 2 (interactive)

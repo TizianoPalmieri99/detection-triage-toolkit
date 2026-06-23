@@ -1,0 +1,5 @@
+type,value,description
+ip,203.0.113.45,Brute force that succeeded - internal threat feed
+ip,45.137.21.9,SSH scanner reported on AbuseIPDB
+domain,malware-c2.example,C2 domain observed in a phishing campaign
+sha256,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,Malicious file hash (example)
