@@ -40,6 +40,32 @@ python blue-team/ioc_checker.py --iocs data/sample_iocs.csv data/sample_auth.log
 python blue-team/win_event_triage.py data/sample_win_security.csv
 ```
 
+## Example output
+
+Running the SSH log analyzer on the sample data:
+
+```
+$ python blue-team/auth_log_analyzer.py data/sample_auth.log
+==============================================================
+AUTH LOG ANALYSIS REPORT
+==============================================================
+
+Total failed attempts: 18
+Total successful logins: 4
+
+[!] IPs above threshold (5+ failures) - possible brute force:
+    203.0.113.45       9 attempts | most targeted users: root(4), admin(2), test(1)
+    45.137.21.9        7 attempts | most targeted users: root(3), ubuntu(2), git(2)
+
+[!] SUCCESSFUL logins from an IP that also had failures:
+    user 'root' from 203.0.113.45 (this IP had 9 failures)
+
+==============================================================
+```
+
+The successful login from `203.0.113.45` — an IP that had just brute-forced its
+way in — is the alert worth escalating.
+
 ## Structure
 
 ```
